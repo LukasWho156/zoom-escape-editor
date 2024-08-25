@@ -1,0 +1,1 @@
+{"id":"subwindow","exits":[{"target":"binocular","open":false,"x":2,"y":2},{"target":"pc","open":true,"x":6,"y":4}],"sprites":[{"id":"lid","x":130,"y":335}]}

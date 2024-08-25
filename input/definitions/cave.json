@@ -1,0 +1,1 @@
+{"id":"cave","exits":[{"target":"cavepainting","open":false,"x":3,"y":3}],"sprites":[{"id":"darkness","x":22,"y":47},{"id":"fire","x":205,"y":97}]}

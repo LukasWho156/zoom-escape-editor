@@ -1,0 +1,1 @@
+{"id":"settlement","exits":[{"target":"well","open":true,"x":1,"y":4},{"target":"flagpole","open":true,"x":6,"y":4},{"target":"lobby","open":false,"x":3,"y":4}],"sprites":[{"id":"door","x":180,"y":164}]}

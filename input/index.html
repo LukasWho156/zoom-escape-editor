@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Infinity Room Editor</title>
+        <link rel="stylesheet" href="./styles.css">
+        <script src="./main.js" defer></script>
+    </head>
+    <body>
+        <div id="container">
+            <div>
+                <label for="roomSelect">Select Room: </label>
+                <select id="roomSelect" name="roomSelect"></select>
+            </div>
+            <div id="mainWindow">
+                <img id="mainImage" src="./rooms/lobby-full.png">
+                <div id="imageGrid"></div>
+                <div id="spriteOverlay"></div>
+            </div>
+            <div>
+                <input type="checkbox" id="spriteLayerCheckbox" name="spriteLayerCheckbox">
+                <label for="spriteLayerCheckbox">Show Sprite Layer</label>
+            </div>
+            <div id="addSpriteDiv">
+                <label for="addSpriteSelect">Add Sprite:</label>
+                <select id="addSpriteSelect" name="addSpriteSelect"></select>
+                <button id="addSpriteButton">Go!</button>
+            </div>
+            <div>
+                <button id="saveButton">Save Current Room</button>
+                <button id="mipmapButton">Save Mipmapped Images</button>
+            </div>
+        </div>
+        <dialog id="editExitDialog">
+            <h2>Edit Exit:</h2>
+            <form method="dialog" id="eedForm">
+                <div>
+                    <label for="eedTarget">Target: </label>
+                    <select id="eedTarget" name="eedTarget"></select>
+                </div>
+                <div>
+                    <label for="eedOpen">Is Open: </label>
+                    <input type="checkbox" id="eedOpen" name="eedOpen" checked>
+                </div>
+                <div>
+                    <button type="submit">OK</button>
+                </div>
+            </form>
+        </dialog>
+        <dialog id="workingDialog">
+            <h2>Saving ...</h2>
+        </dialog>
+    </body>
+</html>

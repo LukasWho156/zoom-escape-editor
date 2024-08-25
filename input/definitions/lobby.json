@@ -1,0 +1,1 @@
+{"id":"lobby","exits":[{"target":"painting","open":false,"x":5,"y":2},{"target":"mousehole","open":true,"x":5,"y":6},{"target":"nightsky","open":false,"x":1,"y":2}],"sprites":[{"id":"cat-sleeping","x":279,"y":291},{"id":"cat-awake","x":95,"y":23},{"id":"woodboards","x":17,"y":217}]}
